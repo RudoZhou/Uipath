@@ -102,7 +102,7 @@
           <av:Size x:Key="ShapeSize">200,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="1.1 rpa" sap:VirtualizedContainerService.HintSize="936,2061" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence DisplayName="1.1 rpa" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <Sequence.Variables>
           <Variable x:TypeArguments="sd:DataTable" Name="DT" />
           <Variable x:TypeArguments="x:String" Name="T1" />
@@ -418,6 +418,24 @@
           </ui:InvokeWorkflowFile.Arguments>
         </ui:InvokeWorkflowFile>
       </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">290,211.5</av:Point>
+          <av:Size x:Key="ShapeSize">200,57</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <l:LanguageChangeActivity DisplayName="Language change activity" sap:VirtualizedContainerService.HintSize="200,57" sap2010:WorkflowViewState.IdRef="LanguageChangeActivity_2">
+        <l:LanguageChangeActivity.LanguageName>
+          <l:Language id="0000042B" name_en="Armenian (Armenia)" />
+        </l:LanguageChangeActivity.LanguageName>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </l:LanguageChangeActivity>
     </FlowStep>
   </Flowchart>
 </Activity>
