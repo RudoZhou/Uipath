@@ -119,7 +119,7 @@
             </InArgument>
           </ui:ReadRange.Range>
         </ui:ReadRange>
-        <ui:InvokeCode ContinueOnError="{x:Null}" Code="InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(New CultureInfo(&quot;en-US&quot;))" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="894,164" sap2010:WorkflowViewState.IdRef="InvokeCode_4">
+        <ui:InvokeCode ContinueOnError="{x:Null}" Code="InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(New CultureInfo(&quot;en-US&quot;))&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;1231231231" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="894,164" sap2010:WorkflowViewState.IdRef="InvokeCode_4">
           <ui:InvokeCode.Arguments>
             <OutArgument x:TypeArguments="x:String" x:Key="Argument1">[T1]</OutArgument>
           </ui:InvokeCode.Arguments>
