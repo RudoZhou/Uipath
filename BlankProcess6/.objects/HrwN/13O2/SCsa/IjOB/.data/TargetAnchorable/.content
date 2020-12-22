@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="http://www.rpachallenge.com/" ContentHash="Sg0IsKPuNkSVchTWjAonAw" DesignTimeRectangle="445, 544, 116, 36" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Submit' check:text='Submit' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector, Image" Text="Submit" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='INPUT' type='submit' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0G7TxFCn_wkayp38hKEr-cg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e645cc9d9a3ac20b26202461ea2c5c5f.png" xmlns="">0cqbaDAVq6UyUlMPwjrHJQQ</imageRef>
+</TargetAnchorable>

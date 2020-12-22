@@ -1,0 +1,13 @@
+﻿{
+  "Id": "IMlQFbqHMUaTyW-8rp4rpQ",
+  "Reference": "9CJ2OiQUhEmVva79Wbka3g/IMlQFbqHMUaTyW-8rp4rpQ",
+  "ParentRef": "9CJ2OiQUhEmVva79Wbka3g/SCsa97gG-ESRX_ibpD1n5A",
+  "Name": "First Name",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2020-12-21T07:48:16.3863789Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2020-12-21T07:48:16.3863789Z"
+}
