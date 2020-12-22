@@ -102,7 +102,7 @@
           <av:Size x:Key="ShapeSize">200,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="1.1 rpa" sap:VirtualizedContainerService.HintSize="936,2231" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence DisplayName="1.1 rpa" sap:VirtualizedContainerService.HintSize="936,2061" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <Sequence.Variables>
           <Variable x:TypeArguments="sd:DataTable" Name="DT" />
           <Variable x:TypeArguments="x:String" Name="T1" />
@@ -119,22 +119,11 @@
             </InArgument>
           </ui:ReadRange.Range>
         </ui:ReadRange>
-        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="894,334" sap2010:WorkflowViewState.IdRef="CommentOut_9">
-          <ui:CommentOut.Body>
-            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,256" sap2010:WorkflowViewState.IdRef="Sequence_17">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <ui:InvokeCode ContinueOnError="{x:Null}" Code="InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(New CultureInfo(&quot;en-US&quot;))" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="334,164" sap2010:WorkflowViewState.IdRef="InvokeCode_4">
-                <ui:InvokeCode.Arguments>
-                  <OutArgument x:TypeArguments="x:String" x:Key="Argument1">[T1]</OutArgument>
-                </ui:InvokeCode.Arguments>
-              </ui:InvokeCode>
-            </Sequence>
-          </ui:CommentOut.Body>
-        </ui:CommentOut>
+        <ui:InvokeCode ContinueOnError="{x:Null}" Code="InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(New CultureInfo(&quot;en-US&quot;))" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="894,164" sap2010:WorkflowViewState.IdRef="InvokeCode_4">
+          <ui:InvokeCode.Arguments>
+            <OutArgument x:TypeArguments="x:String" x:Key="Argument1">[T1]</OutArgument>
+          </ui:InvokeCode.Arguments>
+        </ui:InvokeCode>
         <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="894,51" sap2010:WorkflowViewState.IdRef="CommentOut_8">
           <ui:CommentOut.Body>
             <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,256" sap2010:WorkflowViewState.IdRef="Sequence_15">
